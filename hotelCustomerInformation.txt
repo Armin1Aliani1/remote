@@ -1,0 +1,9 @@
+Name ---------- Service ---------- Amount
+       (Dinner , Conference , Room)
+----------------------------------------------
+Armin aliani ----------| Dinner ----------| 200$
+Ali aliani ----------| Room ----------| 4000$
+Amin aliani ----------| Room ----------| 6000$
+Ahmad aliani ----------| Conference ----------| 400000$
+Sousan aliani ----------| Dinner ----------| 900$
+Sara aliani ----------| Room ----------| 7000$
