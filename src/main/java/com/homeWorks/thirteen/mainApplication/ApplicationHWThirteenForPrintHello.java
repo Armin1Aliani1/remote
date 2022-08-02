@@ -1,4 +1,4 @@
-package com.homeWorks.thirteen;
+package com.homeWorks.thirteen.mainApplication;
 
 public class ApplicationHWThirteenForPrintHello {
     public static void main(String[] args) throws InterruptedException {
@@ -8,6 +8,6 @@ public class ApplicationHWThirteenForPrintHello {
         thread.start();
         Thread.sleep(2000);
         thread.interrupt();
-        
+
     }
 }
