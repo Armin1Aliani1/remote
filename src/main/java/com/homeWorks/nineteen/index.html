@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="Container">
+    <div>
+        <label for="states">Choose state:</label>
+
+        <select id="states" name="states">
+            <option value="Ardabil">Ardabil</option>
+            <option value="Alborz">Alborz</option>
+            <option value="East Azerbaijan">East Azerbaijan</option>
+            <option value="Western Azerbaijan">Western Azerbaijan</option>
+            <option value="Boshehr">Boshehr</option>
+            <option value="Chahar Mahal Bakhtiari">Chahar Mahal Bakhtiari</option>
+            <option value="Fars">Fars</option>
+            <option value="Gilan">Gilan</option>
+            <option value="Golestan">Golestan</option>
+            <option value="Hormozgan">Hormozgan</option>
+            <option value="Hamedan">Hamedan</option>
+            <option value="Isfahan">Isfahan</option>
+            <option value="Ilam">Ilam</option>
+            <option value="southern Khorasan">southern Khorasan</option>
+            <option value="Khorasan Razavi">Khorasan Razavi</option>
+            <option value="North Khorasan">North Khorasan</option>
+            <option value="Khuzestan">Khuzestan</option>
+            <option value="Kurdistan">Kurdistan</option>
+            <option value="Kerman">Kerman</option>
+            <option value="Kermanshah">Kermanshah</option>
+            <option value="Kohgiloyeh and Boyerahmad">Kohgiloyeh and Boyerahmad</option>
+            <option value="Lorestan">Lorestan</option>
+            <option value="Mazandaran">Mazandaran</option>
+            <option value="Markazi">Markazi</option>
+            <option value="Qazvin">Qazvin</option>
+            <option value="Qom">Qom</option>
+            <option value="Semnan">Semnan</option>
+            <option value="Sistan and Baluchestan">Sistan and Baluchestan</option>
+            <option value="Tehran">Tehran</option>
+            <option value="Yazd">Yazd</option>
+            <option value="Zanjan">Zanjan</option>
+        </select>
+        <input id="btn" onclick="geo()" type="submit" value="OK">
+    </div>
+</div>
+<div class="divTable">
+    <table>
+        <thead>
+        <tr>
+            <th colspan="3">weather</th>
+            <th colspan="2">wind</th>
+            <th colspan="2">Information</th>
+        </tr>
+        <tr>
+            <th>id</th>
+            <th>main</th>
+            <th>description</th>
+            <th>speed</th>
+            <th>deg</th>
+            <th>cod</th>
+            <th>name</th>
+        </tr>
+        </thead>
+        <tbody id="tableBody">
+
+        </tbody>
+    </table>
+</div>
+
+
+<script src="./jquery-3.6.1.min.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>

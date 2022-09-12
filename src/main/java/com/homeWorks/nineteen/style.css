@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+.Container, .divTable {
+    width: 95%;
+    height: 325px;
+    margin: 2.5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Container {
+    background-color: darkgray;
+}
+
+.divTable {
+    background-color: #b4ffd0;
+    justify-content: center;
+}
+
+input {
+    width: 50%;
+    margin: 10px;
+}
+
+tr, th, td {
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px;
+}
