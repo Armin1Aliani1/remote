@@ -1,0 +1,19 @@
+.divOne, .divTwo {
+    width: 95%;
+    height: 300px;
+    border: 2px solid black;
+    margin: 2.5%;
+    color: white;
+}
+
+.divOne {
+    background-color: green;
+}
+
+.divTwo {
+    background-color: red;
+}
+
+p {
+    float: left;
+}
